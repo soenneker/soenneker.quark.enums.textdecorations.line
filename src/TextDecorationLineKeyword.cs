@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// CSS text decoration keywords in enumeration form.
 /// </summary>
 [Intellenum<string>]
-public partial class TextDecorationLineKeywordKeyword
+public partial class TextDecorationLineKeyword
 {
     /// <summary>No text decoration.</summary>
     public static readonly TextDecorationLineKeyword None = new("none");
