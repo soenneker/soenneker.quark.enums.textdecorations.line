@@ -6,6 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// CSS text decoration keywords in enumeration form.
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public partial class TextDecorationLineKeyword
 {
     /// <summary>No text decoration.</summary>
@@ -19,6 +20,4 @@ public partial class TextDecorationLineKeyword
 
     /// <summary>Draws a line through the text.</summary>
     public static readonly TextDecorationLineKeyword LineThrough = new("line-through");
-
-    public static implicit operator TextDecorationLineKeyword(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
