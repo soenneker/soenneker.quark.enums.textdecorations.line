@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.TextDecorations.Line.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.TextDecorations.Line\Soenneker.Quark.Enums.TextDecorations.Line.csproj" />
     </ItemGroup>
 
     <ItemGroup>
